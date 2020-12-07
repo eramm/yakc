@@ -1,6 +1,6 @@
-# yakc
+# YAKC - Yet Another Kubernetes Course
 
-## Yet Another Kubernetes Course
+
 
 High level concepts
 1. Why you need Kubernetes and what can it do ?
