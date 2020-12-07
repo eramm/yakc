@@ -13,20 +13,30 @@ High level concepts
 **concepts
 
 -High Availability
+
 -Failover
 
 **Describe the elements that make up the control plane
 
 -kube-apiserver
+
 -ii. kube-controller-manager
+
 -iii. kube-scheduler
+
 -ETCD
+
 -cloud manager
 
+
 **Node processes
+
 -Kublet
+
 -Kube-proxy
+
 -docker
+
 
 **K8s networking concepts
 
