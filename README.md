@@ -2,11 +2,11 @@
 
 ### High level concepts
 
-1.     Why you need Kubernetes and what can it do ?
-2.     What Kubernetes is not? ( emphasize HA misconceptions)
-3.     Where do containers fit in with this ?
-4.     Do they need to be microservices ?
-5.     How do monoliths work on Kubernetes ?
+1. Why you need Kubernetes and what can it do ?
+2. What Kubernetes is not? ( emphasize HA misconceptions)
+3. Where do containers fit in with this ?
+4. Do they need to be microservices ?
+5. How do monoliths work on Kubernetes ?
 
 ### Kubernetes Architecture
 
@@ -54,11 +54,10 @@
 - External Name
 
 ##### Volumes
+	- init container
+	- persistant storage
 
-- init container
-- persistant storage
-
-- More Kubernetes Concepts
+#### More Kubernetes Concepts
 - Namespace
 - Secrets
 - K8S Volumes
