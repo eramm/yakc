@@ -12,7 +12,7 @@ type: NodePort
 
 ports:
 
-    - targetPort: 80
+    - targetPort: 80 <-- port that the service uses
 
      port: 80 <-- mandatory <-- will be the same as targetPort if not specified
 
