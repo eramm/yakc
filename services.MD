@@ -36,12 +36,13 @@ you probaly only need to set the port
 
    ports:
 
-   - targetPort: 80 <-- port that the service uses
+    - targetPort: 80 <-- port that the service uses
 
-     port: 80 <-- port that the cluster will listen on
+       port: 80 <-- port that the cluster will listen on
 
 
 LOAD BALANCER
+
     type: LoadBalancer
 
     - targetPort: 80 <-- pod side port
