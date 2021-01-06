@@ -12,11 +12,11 @@ type: NodePort
 
 ports:
 
- - targetPort: 80
+    - targetPort: 80
 
-   port: 80 <-- mandatory <-- will be the same as targetPort if not specified
+     port: 80 <-- mandatory <-- will be the same as targetPort if not specified
 
-   nodePort: 30008 <-- user facing port <-- will be assigned automaticly if none specifed
+     nodePort: 30008 <-- user facing port <-- will be assigned automaticly if none specifed
 
 
 
