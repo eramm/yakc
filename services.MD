@@ -18,7 +18,7 @@ ports:
 
      nodePort: 30008 <-- user facing port <-- will be assigned automaticly if none specifed
 
-
+    kk expose deploy simple-webapp-deployment --name=simple-webapp --port=8080 --target-port=8000 -l 'app=simple-web' --type='NodePort' --dry-run=client-o yaml > ./srv.yml
 
 CLUSTER PORT
 
