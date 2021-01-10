@@ -1,3 +1,6 @@
+kubectl do not print the headers like when you want to pipe to wc -l **--no-headers**
+
+
 
     * all
     * certificatesigningrequests (aka 'csr')
