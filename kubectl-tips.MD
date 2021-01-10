@@ -3,6 +3,8 @@
 
 
 
+**kubectl abreviations 
+
     * all
     * certificatesigningrequests (aka 'csr')
     * clusterrolebindings
