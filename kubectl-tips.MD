@@ -1,5 +1,6 @@
 * kubectl do not print the headers like when you want to pipe to wc -l **--no-headers**
 * to see all the yaml options use the ```explain --recursive``` switch e.g. ```kubectl explain pod --recursive ``` add grep Ax to view x lines below the grep result
+* show lables on nodes ``--show-labels``` grep ',' to help count labels
 
 
 
